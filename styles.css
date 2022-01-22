@@ -1,0 +1,28 @@
+.grid {
+	width: 306px;
+	height: 306px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #028A40;
+	margin: auto;
+	max-width: 350px;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
+body {
+	background-color: aquamarine;
+	height: auto;
+}
+
+h2 {
+	text-align: center;
+}
